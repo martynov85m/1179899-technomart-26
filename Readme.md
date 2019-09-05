@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Anton Martinov](https://up.htmlacademy.ru/htmlcss/26/user/1179899).
-* Наставник: `Дима Полос`.
+* Наставник: `Дима Полос`(https://htmlacademy.ru/profile/id356759).
 
 ---
 
