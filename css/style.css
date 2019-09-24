@@ -1,0 +1,227 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #000000;
+	background-color: #ffffff;
+}
+a {
+	text-decoration: none;
+}
+.main-header {
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	background-color: #f3f7f8; 
+}
+.top-menu a {
+	font-size: 17px;
+	font-style: bold;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #32425c;
+}
+.shop-description {
+	margin: 20px 30px;
+	font-size: 16px;
+	font-style: italic;
+	width: 200px;
+	line-height: 20px;
+	color: #ee3643;
+}
+.header-phone {
+	font-style: bold;
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+	padding: 5px;
+	border: 3px solid #ffffff;
+}
+.top-contacts p {
+	font-size: 14px;
+	font-style: bold;
+	line-height: 24px;
+	color: #32425c;
+}
+.login a,
+.login-inner p {
+	font-style: bold;
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+}
+.login-inner a {
+	font-style: bold;
+	font-size: 16px;
+	line-height: 18px;
+	color: #32425c;
+	text-decoration: underline;
+}
+.catalog a {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #000000;
+}
+.catalog li {
+	display: inline;
+}
+.drills {
+	font-style: bold;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #32425c;
+	background-color: #ffffff;
+}
+.main-navigation a {
+	font-size: 17px;
+	font-style: bold;
+	line-height: 17px;
+	color: #ffffff;
+	background-color: #32425c;
+}
+.main-navigation li {
+	display: inline;
+    list-style-type: none;
+}
+.top-menu a:hover,
+.top-menu a:focus,
+.main-navigation a:hover,
+.main-navigation a:focus
+.first-row a:hover,
+.first-row a:focus,
+.second-row a:hover,
+.second-row a:focus {
+	background-color: #293449;
+}
+.top-menu a:hover,
+.top-menu a:active,
+.main-navigation a:hover,
+.main-navigation a:active
+.first-row a:hover,
+.first-row a:active,
+.second-row a:hover,
+.second-row a:active {
+	background-color: #1d2739;
+}
+.producers legend,
+.power-types legend{
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 17px;
+	line-height: 30px;
+	font-style: bold;
+	color: #000000;
+	background-color: #ffffff;
+	text-transform: uppercase;
+}
+.producers label,
+.power-types label{
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 400;
+	color: #000000;
+	background-color: #ffffff;
+	text-transform: uppercase;
+}
+.cards h3 {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	font-style: bold;
+	color: #000000;
+}
+.cards del {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+	font-style: bold;
+	color: #999999;
+}
+.about,
+.contacts {
+	color: #000000;
+	background-color: #ffffff;
+}
+.about h2,
+.contacts h2 {
+	font-style: bold;
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+.about p,
+.contacts p {
+	font-family: "PT Sans", Arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+}
+.about a,
+.contacts a {
+	padding: 5px;
+	font-style: bold;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: #ee3643;
+}
+.about li {
+	font-style: bold;
+	font-size: 18px;
+	line-height: 20px;
+}
+.main-footer p {
+	font-style: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #ffffff;
+	background-color: #32425c;
+}
+.main-footer a {
+	font-style: bold;
+	font-size: 21px;
+	line-height: 30px;
+	color: #ffffff;
+	background-color: #32425c;
+}
+.footer-phone {
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	background-color: #32425c;
+}
+.first-row li,
+.second-row li {
+	display: inline;
+	text-align: right;
+}
+.first-row a {
+	color: #ffffff;
+	background-color: #32425c;
+}
+.second-row a {
+	color: #ffda96;
+	background-color: #32425c;
+}
+.bottom {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #293449;
+}
+.links a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffd180;
+	background-color: #293449;
+}
