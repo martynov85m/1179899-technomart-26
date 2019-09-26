@@ -100,12 +100,33 @@ a {
 	display: inline;
 }
 .drills {
-	font-style: bold;
+	font-weight: 700;
 	font-size: 30px;
 	line-height: 30px;
 	text-transform: uppercase;
 	color: #32425c;
 	background-color: #ffffff;
+}
+.button_buy a {
+	font: inherit;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #63a63e;
+	text-transform: uppercase;
+}
+.button_buy button {
+	font: inherit;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 18px;
+	color: #32425c;
+	background-color: #ffffff;
+	border: 2px solid #63a63e;
+	text-transform: uppercase;
 }
 .main-navigation a {
 	font-size: 17px;
@@ -125,8 +146,20 @@ a {
 .login a:hover {
 	color: #ee3643;
 }
-.bg_order a:hover {
+.bg_order a:hover,
+.button_buy a:hover {
 	background-color: #5fbb2d; 
+}
+.button_buy a:active {
+	background-color: #518534;
+}
+.button_buy button:hover {
+	border: 2px solid #32425c; 
+}
+.button_buy button:active {
+	opacity: 0.3;
+	outline: none;
+	border: solid 2px rgba(50, 66, 92, 0.3);
 }
 .top-menu a:active {
 	opacity: 0.6;
@@ -178,6 +211,9 @@ a {
 	line-height: 18px;
 	font-style: bold;
 	color: #999999;
+}
+.cards li {
+	list-style-type: none;
 }
 .about,
 .contacts {
