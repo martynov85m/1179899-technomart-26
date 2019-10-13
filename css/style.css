@@ -39,20 +39,11 @@ a {
 	font-weight: 400;
 	line-height: 18px;
 	color: #ffffff;
-	padding: 15px 20px;
+	padding-top: 15px 0px;
 	vertical-align: middle;
 }
-.top-menu a:nth-child(1) {
-	padding: 0px;
-}
-.top-menu a:last-child {
-	font-size: 17px;
-	font-weight: 400;
-	line-height: 18px;
-	color: #ffffff;
-	background-color: #63a63e;
-	padding: 16px 20px
-}
+
+
 .header-info {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -109,7 +100,7 @@ a {
 .login a:hover {
 	color: #ee3643;
 }
-.top-menu a:last-child:hover,
+
 .button_buy a:hover {
 	background-color: #5fbb2d; 
 }
@@ -127,7 +118,7 @@ a {
 .top-menu a:active {
 	opacity: 0.6;
 }
-.top-menu a:last-child:active,
+
 .main-navigation a:active {
 	opacity: 0.5;
 }
@@ -165,8 +156,62 @@ a {
 	border-bottom: 5px solid #b52933;
 }
 .search {
-	font: inherit;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 49px;
+	color: #ffffff;
+	background-color: #293449;
+	border: none;
+	padding-left: 50px;
 }
+.icon-search {
+	display: inline-block;
+	position: relative;
+	background-image: url("../img/icon-search.svg");
+	background-repeat: no-repeat;
+	background-position: 15px 17px;
+	opacity: 0.3;
+	left: -60px;
+	top: 0px;
+	width: 100px;
+	vertical-align: middle;
+}
+
+.search:hover {
+	background-color: #212a3a;
+}
+.icon-search:hover {
+	opacity: 1;
+	border: none;
+	background-color: #212a3a;
+}
+.icon-bookmark {
+	display: inline-block;
+	position: relative;
+	background-image: url("../img/icon-bookmark.svg");
+	background-repeat: no-repeat;
+	background-position: 15px 17px;
+	opacity: 0.3;
+	left: 0px;
+	top: 0px;
+	width: 40px;
+	min-height: 50px;
+	vertical-align: middle;
+	background-color: #293449;
+}
+.top-buttons {
+	display: flex;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 18px;
+	color: rgba(255, 255, 255, 1);
+	flex-direction: row;
+	opacity: 1;
+	background-color: #293449;
+	text-align: center;
+	
+}
+
 /*
 .item {
 	position: relative;
@@ -179,13 +224,19 @@ a {
 		display: -moz-flex;
 		display: -ms-flex;
 		display: -o-flex;
-		display: flex;
+		display: inline-flex;
 		justify-content: space-between;
 		align-items: flex-start;
 		flex-wrap: wrap;
 		margin: 50px 0px 0px 0px;
 		padding: 0px;
 	}
+	.item:nth-child(6) {
+		position: relative;
+		float: left;
+
+	}
+
 	.slider {
 		display: flex;
 		flex-direction: column;
@@ -198,7 +249,7 @@ a {
 		justify-content: center;
 		align-items: flex-start;
 		width: 300px;
-		padding-bottom: 20px;
+		margin-bottom: 10px;
 	}
 	.materials li {
 		list-style: none;
@@ -229,8 +280,6 @@ a {
 		justify-content: center;
 		align-items: flex-start;
 		width: 300px;
-		padding-bottom: 20px;
-
 	}
 	.tools li {
 		list-style: none;
@@ -262,7 +311,6 @@ a {
 		justify-content: center;
 		align-items: flex-start;
 		width: 300px;
-		padding-bottom: 20px;
 	}
 	.hardware li {
 		list-style: none;
@@ -293,7 +341,6 @@ a {
 		justify-content: center;
 		align-items: flex-start;
 		width: 300px;
-		padding-bottom: 20px;
 	}
 	.discount li {
 		list-style: none;
@@ -324,7 +371,6 @@ a {
 		justify-content: center;
 		align-items: flex-start;
 		width: 300px;
-		padding-bottom: 20px;
 	}
 	.logistic li {
 		list-style: none;
@@ -348,7 +394,10 @@ a {
 		padding: 10px 15px;
 		margin:  10px 0px 15px 25px;
 	}
-
+	.items > .logistic { 
+		display: flex;
+		align-items: flex-end;
+	}
 	.breadcrumb {
 		display: -webkit-flex;
 		display: -moz-flex;
