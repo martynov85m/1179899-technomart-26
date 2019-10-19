@@ -11,18 +11,19 @@
 	<header class="main-header">
 		<div class="top-menu">
 			<div class="container top">
-				<a href="index.html">
+				<a href="index.html" class="logo-head">
 					<img src="img/logo-technomart.svg" alt="Логотип интернет магазина Техномарт">
 				</a>
-				<form>
-					<input class="search icon-search" type="text" name="search" id="search" placeholder="Поиск:">
+				
+				<form class="icon-search">					
+						<input class="search" type="text" name="search" id="search" placeholder="Поиск:">
 				</form>
-				<div class="top-buttons">
-					<div class="icon-bookmark"></div>
-					<a href="">Закладки:</a>
+
+				<div>
+				<a href="" class="bookmarks">Закладки:</a>
+				<a href="" class="cart">Корзина:</a>
+				<a href="" class="order">Оформить заказ</a>
 				</div>
-				<a href="">Корзина:</a>
-				<a class="bg_order" href="">Оформить заказ</a>
 			</div>
 		</div>
 		<div class="container header-info">
@@ -33,9 +34,9 @@
 				<p>
 					<a class="header-phone" href="tel:+78125550555">+7 (812) 555-0-555</a><br>г.Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 				</div>
-				<p class="login"> 
-					<a href="">Войти</a>
-					<a href="">Регистрация</a>
+				<p> 
+					<a href="" class="enter">Войти</a>
+					<a href="" class="registration">Регистрация</a>
 				</p>
 			</div>
 			<nav class="main-navigation container">
@@ -52,7 +53,7 @@
 		</header>
 		<main>
 			<section class="container items">
-				<ul>
+				<ul class="categories">
 					<li class="materials"><p>Материалы</p>
 						<a href="">На любой вкус</a>
 					</li>
@@ -64,8 +65,8 @@
 						<p>Техника</p>
 						<a href="">Для стройки</a>
 					</li>
-					<li>
-						<a class="slide">
+					<li class="slide">
+						<a>
 							<img alt="slide" src="img/slider-1.jpg">
 						</a>
 					</li>
